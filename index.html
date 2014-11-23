@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	
+	<header>
+		<meta charset="utf-8">
+		<title>.:GuessGame:.</title>
+		<link rel="stylesheet" href="css/style.css">
+
+	</header>
+
+	<body>
+		
+		<div id="wrapper">
+			<h2>Type in a number between 1-100</h2>
+
+			<input type="text" id="number" autofocus>
+
+			<ul>
+				<li><button id="restart" onClick="history.go(0)" >Restart</button></li>
+				<li><button id="sub" onclick="check()">Submit</button></li>
+			</ul>
+
+			<input type="text" id="result" value="Ready" readonly>
+			<div id ="animate"><ul></ul></div>
+			
+		</div>
+
+
+		<h5>&copy 2014 oluwadamilola.adebayo@andela.co</h5>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
