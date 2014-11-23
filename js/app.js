@@ -10,8 +10,8 @@ function check(){
 	// display.className = ("animate");
 
 
-	if(isNaN(guessed_number) || guessed_number == '' ){
-		alert("Pls type a valid number");
+	if( (guessed_number > 100) || (isNaN(guessed_number) || guessed_number == '') ){
+		alert("Pls type a valid number between 1 and 100");
 	}
 	else{
 		var b = Math.abs(guessed_number - computerRandom);
@@ -25,7 +25,7 @@ function check(){
 	    
 	    else if(0 < b && b <= 10){
 	        
-	        feedback.value = "Getting Hotter";
+	        feedback.value = "Getting Hotter" + computerRandom;
 	        if(0 <= b && b <= 3){
 	        	display.setAttribute("class", "correct_80");
 	        }
@@ -41,7 +41,7 @@ function check(){
 	    }
 	    else{
 	        
-	        feedback.value = "Getting Colder";
+	        feedback.value = "Getting Colder" + computerRandom;
 	    }
 	}
 }

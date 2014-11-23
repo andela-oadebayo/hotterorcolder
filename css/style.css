@@ -6,9 +6,21 @@
 	font-size: 1em;
 }
 
+@font-face {
+	font-family: "Roboto";
+	src:url("../font/Roboto-Light.ttf");
+}
+
+
 h5{
+	font-family: "Roboto";
 	text-align: center;
 }
+h2 {
+	font-family: "Roboto";
+	margin-left: -50px;
+}
+
 
 ul{
 	padding-left: 5px;
