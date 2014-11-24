@@ -1,0 +1,192 @@
+/**********
+GENERAL
+***********/
+
+body {
+	background:  url('../img/7.png') no-repeat center center;
+	background-size: cover !important;
+}
+
+#wrapper {
+	width: 600px;
+	margin: 100px auto 0;
+	/*border: 1px solid black;*/
+	padding-left: 350px;
+	font-size: 1em;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src:url("../font/Roboto-Light.ttf");
+}
+
+h5{
+	font-family: "Roboto";
+	text-align: center;
+	margin-left: -50px;
+}
+h2 {
+	font-family: "Roboto";
+	margin-left: -50px;
+}
+
+
+ul {
+	padding-left: 5px;
+	/*border: 1px solid black;*/
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 30px;
+}
+/*End of General coding*/
+
+
+/**********
+Styling 
+Our
+Feedbacks
+***********/
+#number {
+	height: 80px;
+	width: 200px;
+	font-size: 3em;
+	text-align: center;
+	border: none;
+	border-bottom: 2px solid green;
+	background-color: transparent;
+}
+
+#number:focus {
+	outline: none;
+}
+
+#restart, #sub {
+	height: 50px;
+	width: 80px;
+	font-size: 1em;
+}
+
+#result {
+	height: 80px;
+	width: 250px;
+	font-size: 2em;
+	border-radius: 3px;
+	text-align: center;
+	border: 1px solid gray;
+	margin-bottom: 30px;
+	margin-left: -20px;
+	background-color: transparent;
+}
+
+#result:focus {
+	outline: none;
+}
+
+#animate {
+	height: 30px;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	
+}
+
+.correct {
+	height: 30px;
+	width: 300px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	background-color: green;
+}
+
+.correct_80 {
+	height: 30px;
+	width: 240px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	background-color: red;
+}
+
+.correct_50 {
+	height: 30px;
+	width: 150px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	background-color: red;
+}
+
+.correct_30 {
+	height: 30px;
+	width: 90px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	background-color: red;
+}
+
+.correct_10 {
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	background-color: red;
+}
+
+.wrong {
+	height: 30px;
+	width: 300px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	background-color: black;
+}
+.wrong_80 {
+	height: 30px;
+	width: 240px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	background-color: black;
+}
+
+.wrong_50 {
+	height: 30px;
+	width: 150px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	background-color: black;
+}
+
+.wrong_30 {
+	height: 30px;
+	width: 90px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	background-color: black;
+}
+
+.wrong_10 {
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	background-color: black;
+}
+
+#clue {
+	border: none;	
+	margin-left: -20px;
+	font-size: 1.5em;
+	background-color: transparent;
+
+}
+/*End of Feedback Styling*/
+
